@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OCS Project</title>
+    <style>
+        .form-container {
+            display: flex;
+            flex-direction: column;
+            width: 20vw;
+            background-color: #f1edc2;
+            padding: 1rem;
+            border-radius: 0.5rem;
+        }
+        input {
+            width: 80%;
+        }
+    </style>
+</head>
+<body>
+    <div style="display: flex; justify-content: center; align-items: center; height: 90vh;">
+        <div class="form-container">
+            <label for="username">Username</label>
+            <input id="username" placeholder="Enter Username" type="text" required>
+            <label for="password">Password</label>
+            <input id="password" placeholder="Enter Password" type="password" required>
+            <button id="submit-button" onclick="" style="width: 100px;">Login</button>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.0.0/core.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/md5.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
