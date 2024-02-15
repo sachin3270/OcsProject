@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', async function () {
       console.error(error.message);
     }
   }
-  // this is comment
+
   var submit = document.getElementById('submit-button');
   submit.addEventListener('click', async function () {
     var username_elem = document.getElementById('username');
