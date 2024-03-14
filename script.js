@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', async function () {
 
       const hashed_pwd = CryptoJS.MD5(password)
 
-      console.log(data);
+      
 
       for (var i = 0; i < data.length; i++)
       {
